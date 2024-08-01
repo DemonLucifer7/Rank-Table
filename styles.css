@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black; /* Set background color of the page to black */
+    color: white; /* Set text color to white */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white; /* Set header text color to white */
+    margin: 0;
+    padding: 10px 0;
+    background-color: #0000FF; /* Blue background strip */
+    font-family: 'Algerian', cursive; /* Set font to Algerian */
+    font-size: 2em; /* Adjust font size as needed */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white; /* Set background color of the table to white */
+}
+
+table, th, td {
+    border: 1px solid #ddd; /* Light border color for visibility */
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ADD8E6; /* Light blue background for the header */
+    color: black; /* Dark text color for contrast */
+}
+
+td {
+    background-color: #f5f5f5; /* Light gray background for table cells */
+    color: black; /* Dark text color for table cells */
+}
+
+input {
+    width: 60px; /* Adjust this width as needed */
+    text-align: center;
+    background-color: #333; /* Dark background for input fields */
+    color: white; /* White text color for input fields */
+    border: 1px solid #555; /* Border color for input fields */
+}
+
+/* Specific column widths */
+th:nth-child(1), td:nth-child(1) {
+    width: 80px; /* Width for the Rank column */
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 200px; /* Width for the Teams column */
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 120px; /* Width for the Total Points column */
+}
+
+th:nth-child(4), td:nth-child(4),
+th:nth-child(5), td:nth-child(5),
+th:nth-child(6), td:nth-child(6),
+th:nth-child(7), td:nth-child(7) {
+    width: 80px; /* Width for the Match columns */
+}
